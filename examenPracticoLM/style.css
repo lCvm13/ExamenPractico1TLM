@@ -20,8 +20,8 @@ img{
     align-items: center;
     align-content: center;
     justify-content: center;
+    object-fit: cover;
 }
-
 div{
     position: absolute;
     color:transparent;
@@ -46,12 +46,12 @@ div:hover, div:active {
 p{
     text-decoration: wavy;
     font-weight: bold;
-    font-size: xx-large;
+    font-size:calc(1em + 1vw + 1vh);
 
 }
 div:hover >#nombre{
     color:rgb(132, 0, 255);
-    font-size: xx-large;
+    font-size:calc(1.2em + 1vw + 1vh);
     text-shadow: 1px 1px 1px rgb(255, 0, 0);
     border-style:dotted;
     border-color: greenyellow;
